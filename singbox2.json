@@ -259,19 +259,6 @@
         "tag": "others",
         "type": "selector",
         "outbounds": []
-      },
-      {
-        "tag": "all",
-        "type": "selector",
-        "outbounds": []
-      },
-      {
-        "tag": "all-auto",
-        "type": "urltest",
-        "outbounds": [],
-        "url": "https://cp.cloudflare.com/generate_204",
-        "interval": "3m",
-        "tolerance": 50
       }
     ],
     "route": {
