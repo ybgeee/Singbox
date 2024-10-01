@@ -69,8 +69,8 @@
         }
       ],
       "strategy": "ipv4_only",
-      "disabled_cache": false,
-      "disabled_expire": false,
+      "disable_cache": false,
+      "disable_expire": false,
       "independent_cache": false,
       "final": "dns_global"
     },
@@ -89,7 +89,7 @@
         "sniff": true,
         "sniff_override_destination": false,
         "platform": {
-          "http_global": {
+          "http_proxy": {
             "enabled": true,
             "server": "127.0.0.1",
             "server_port": 7890
