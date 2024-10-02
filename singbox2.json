@@ -532,13 +532,6 @@
           "download_detour": "global"
         },
         {
-          "tag": "neteasemusic_non_ip",
-          "type": "remote",
-          "format": "binary",
-          "url": "https://github.com/yyhhyyyyyy/sing-box-ruleset/raw/main/non_ip/neteasemusic.srs",
-          "download_detour": "global"
-        },
-        {
           "tag": "download_domainset",
           "type": "remote",
           "format": "binary",
