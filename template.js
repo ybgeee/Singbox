@@ -8,6 +8,10 @@
 // 可选参数: includeUnsupportedProxy 包含官方/商店版不支持的协议 SSR. 用法: `&includeUnsupportedProxy=true`
 
 // ⚠️ 如果 outbounds 为空, 自动创建 COMPATIBLE(direct) 并插入 防止报错
+
+// 自用筛选条件
+// https://raw.githubusercontent.com/yyhhyyyyyy/selfproxy/main/Sing-Box/tp.js#name=cloudfisher&outbound=🕳ℹ️HongKong-auto🏷ℹ️港|hk|hongkong|kong kong|🇭🇰🕳ℹ️Taiwan-auto🏷ℹ️台|tw|taiwan|🇹🇼🕳ℹ️Japan-auto🏷ℹ️日本|jp|japan|🕳ℹ️Singapore-auto🏷ℹ️^(?!.*(?:us)).*(新|sg|singapore|🇸🇬)🕳ℹ️US-auto🏷ℹ️美|us|unitedstates|united states|🕳ℹ️others🏷ℹ️韩|澳|印|拿|墨|法|意|荷|班|瑞|英|以|沙|南|阿|智
+
 log(`🚀 开始`)
 
 let { type, name, outbound, includeUnsupportedProxy } = $arguments
